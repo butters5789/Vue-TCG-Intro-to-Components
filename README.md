@@ -1,1 +1,5 @@
-# Vue-TCG-Intro-to-Components
+# Vue - The Complete Guide
+
+## Vue Intro to Components
+
+### Assignment 6
