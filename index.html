@@ -14,18 +14,13 @@
   </head>
   <body>
     <header>
-      <h1>FriendList</h1>
+      <h1>Friend List</h1>
     </header>
     <section id="app">
       <ul>
-        <li v-for="friend in friends" :key="friend.id">
-          <h2>{{ friend.name }}</h2>
-          <button @click="toggleDetails(friend.id)">Show Details</button>
-          <ul v-if="showDetails[friend.id]">
-            <li><strong>Phone:</strong> {{ friend.phone }}</li>
-            <li><strong>Email:</strong> {{ friend.email }}</li>
-          </ul>
-        </li>
+        <brad-details></brad-details>
+        <joe-details></joe-details>
+        <jane-details></jane-details>
       </ul>
     </section>
   </body>
